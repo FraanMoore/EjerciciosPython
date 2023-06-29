@@ -7,13 +7,3 @@
 # Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento, así como la cantidad de dinero que recibirá el usuario.
 
 
-puntuacion = float(input('Ingresa tu puntuacion: '))
-
-if puntuacion == 0.0:
-    print(f'Tu nivel de rendimiento es inaceptable y la cantidad de dinero que recibes es {puntuacion*2400}')
-elif puntuacion == 0.4:
-    print(f'Tu nivel de rendimiento es aceptable y la cantidad de dinero que recibes es {puntuacion*2400}')
-elif puntuacion > 0.6:
-    print(f'Tu rendimiento es Meritorio y la cantidad de dinero que recibes es {puntuacion*2400}')
-else:
-    print('Tu puntuacion no esta en el cuadro')
